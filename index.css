@@ -1,0 +1,49 @@
+body{
+    background-color:blanchedalmond;
+    color:cornflowerblue;
+
+}
+h1{
+    color: cornflowerblue;
+    
+}
+button{
+    background-color: cornflowerblue;
+    color: white;
+    margin:20px;
+    width: 30vw;
+    height:10wh;
+    border-radius: 5px;
+    
+}
+button:hover{
+    scale:1.2;
+    cursor:pointer;
+
+}
+
+@keyframes FadeIn {
+    0%{
+        border-color:#FF1900;
+    }
+    20%{
+        border-color:#00FF45;
+
+    }
+    40%{
+        border-color:#057DFF;
+    }
+    60%{
+        border-color:#9800FF;
+    }
+    80%{
+        border-color:#FFFA00;
+
+    }
+    100%{
+        border-color:#FF008C;
+    }
+}
+.hidden{ 
+    opacity:0;
+}
